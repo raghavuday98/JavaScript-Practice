@@ -8,4 +8,13 @@ else{
     console.log("Invalid Access");
     
 }
+if(UserloggedInWithMobileNo && UserloggedInWithEmail){
+    console.log("All personal details submitted" );
+    
+}
+else{
+    console.log("Please submit Personal Details");
+    
+}
+
 
