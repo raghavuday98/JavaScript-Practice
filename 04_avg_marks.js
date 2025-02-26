@@ -4,4 +4,4 @@ for (const val of marks) {
     sum+=val;
 }
 let avg = sum/marks.length;
-console.log(avg);
+console.log(`Average marks are ${avg}`);
